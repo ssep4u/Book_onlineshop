@@ -29,7 +29,7 @@
                 {% endif %}
             </li>
             <li class="nav-item active">
-                <a href="" class="nav-link btn btn-outline-success">
+                <a href="{% url 'cart:detail' %}" class="nav-link btn btn-outline-success">
                     Cart
                     {% if cart|length > 0 %}
                         ${{cart.get_product_total}} with {{cart|length}} items
