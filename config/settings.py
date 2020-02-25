@@ -167,3 +167,7 @@ LOGIN_REDIRECT_URL = '/'
 
 # cart
 CART_ID = 'cart_in_session'
+
+# iamport
+IAMPORT_REST_API_KEY = os.environ['IAMPORT_REST_API_KEY']
+IAMPORT_REST_API_SECRET = os.environ['IAMPORT_REST_API_SECRET']
