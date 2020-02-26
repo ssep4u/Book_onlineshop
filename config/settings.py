@@ -171,3 +171,6 @@ CART_ID = 'cart_in_session'
 # iamport
 IAMPORT_REST_API_KEY = os.environ['IAMPORT_REST_API_KEY']
 IAMPORT_REST_API_SECRET = os.environ['IAMPORT_REST_API_SECRET']
+
+# static
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
